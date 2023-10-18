@@ -1,0 +1,13 @@
+<template>
+    <div style="height: 250px;">
+        <lightning-datatable
+            key-field="employeeId"
+            data={employeeData}
+            columns={employeeColumns}>
+        </lightning-datatable>
+        <footer class="slds-modal__footer">
+            <lightning-button variant="brand" label="Permitir" title="Close" onclick={closeModalAction}>
+            </lightning-button>
+        </footer>
+    </div>
+</template>
